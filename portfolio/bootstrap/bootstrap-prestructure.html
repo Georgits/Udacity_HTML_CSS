@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- saved from url=(0104)file:///C:/Users/d91067/Desktop/Udacity/Udacity_HTML_CSS/portfolio/bootstrap/bootstrap-prestructure.html -->
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <link rel="stylesheet" href="./bootstrap-prestructure_files/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/styles.css">
+    javascript <script type="text/javascript" src="js/jquery-2.2.3.min.js">
+    </script> <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+  <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6"><img class="title-logo" src="images/udacity-logo.jpg"></div>
+      <div class="col-md-6 text-right text-uppercase">
+        <h1 class="title-super text-thin">Sophie Tsertsvadze</h1>
+        <h3>Ich liebe Katzen</h3>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col-md-12"><img src="http://placekitten.com/1140/350" class="img-responsive" alt="Responsive image" data-toggle="modal" data-target="#project1"></div>
+    </div>
+    <div class="row">
+    <div class="col-md-12"><h2 class="text-muted">Featured Work</h2></div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-6">
+        <img src="http://placekitten.com/560/300" class="img-responsive" alt="Responsive image">
+        <h3>Appify</h3>
+        <p><a href="http://github.com/">Link to project</a></p>
+      </div>
+      <div class="col-md-6">
+        <img src="http://placekitten.com/560/299" class="img-responsive" alt="Responsive image">
+        <h3>Appify</h3>
+        <p><a href="http://github.com/">Link to project</a></p>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-6">
+        <img src="http://placekitten.com/570/302" class="img-responsive" alt="Responsive image">
+        <h3>Appify</h3>
+        <p><a href="http://github.com/">Link to project</a></p>
+      </div>
+      <div class="col-md-6">
+        <img src="http://placekitten.com/570/300" class="img-responsive" alt="Responsive image">
+        <h3>Appify</h3>
+        <p><a href="http://github.com/">Link to project</a></p>
+      </div>
+    </div>
+  </div>
+
+
+//**You will need several modals, one for each project for which you want to provide more information.** You have to change the `id` (as well as the title, image and description) for each modal to be unique. Then, you need to add a couple of data attributes to the element that will launch the modal.
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <img src="http://placekitten.com/1140/350" class="img-responsive" alt="Responsive image">HAHAHA
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body></html>
